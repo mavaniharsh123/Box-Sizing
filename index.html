@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Q.1:- Explain box sizing Properties with examples?</h1>
+    <h2>The box-sizing property defines how the width and height of an element are calculated, should they include padding and borders, or not.</h2>
+    <h2>Border-box : Border-box include padding and border of an element within.</h2>
+    <h2>For example : if width is 300px, padding is 10px and border is 5px, then content width is 270px, but overall width (border-box) will be 300px. Means content width will reduce to maintain border-box</h2>
+    <div class="border-box">
+        My Border box
+    </div>
+    <h2>Content-box : Content-box is default value of div tag. By adding border and padding to a div with fixed width can change overall width ( border box) of div.<br/>
+        For example: If width is 300px, padding is 10px and border is 5px, then content width is 300px, but overall width (border-box) will be 330px by adding padding and border with width.</h2>
+    <div class="content-box">
+        My Content box 
+    </div>
+    <h1>Q.2:- Create two boxes and box1 should be on top and box2 should be on bottom</h1>
+    <div>
+        <div class="my-relative">
+            box 1
+        </div>
+        <div class="my-absoulte">
+            box 2
+        </div>
+    </div>
+    <h1>Q 3 : Arrange 5 boxes in alternate manner , first box on left of screen , second on right of screen and so on</h1>
+    <h2>Float and Clear Property of CSS</h2>
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+        <div class="box box3">box3</div>
+        <div class="box box4">Box4</div>
+        <div class="box box5">Box5</div>
+    
+</body>
+</html>
